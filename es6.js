@@ -9,7 +9,7 @@ app.use(async (ctx,next)=>{
 app.use(async (ctx, next) => {
 	console.log("2-start");
 	await next();
-	console.log("2-end");
+	
 });
 let prm = new Promise(
 	function(resolve, reject) {
